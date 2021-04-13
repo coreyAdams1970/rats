@@ -32,9 +32,6 @@ const settings = {
 
 const MainContainer = styled.div`
   
-  position:relative;
-  top: -200px;
-
   .main-text {
     text-align: justify;
     background-color: white;
@@ -105,11 +102,11 @@ export default function IndexPage(props) {
       />
 
       <MainContainer>
-        <div className="row w-100">
+        {/* <div className="row w-100">
           <div className="col-12 px-0 pb-3 slider-main-container">
             <Slideshow wrapperClass="images-slider" images={images} settings={settings} key="image-slider" />
           </div>
-        </div>
+        </div> */}
         <div className="row main-text mt-5 px-2">
           <div className="col-12 col-lg-6 px-5">
             <div className="col-12">

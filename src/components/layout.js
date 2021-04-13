@@ -24,7 +24,7 @@ function Header({ location }) {
           Contact
         </Link>
         <Link to="/blog/" className="nav-button" disabled={location.pathname === "/blog/"}>
-          Our Work
+          Dates and Band Info
         </Link>
       </nav>
     </>
@@ -34,35 +34,18 @@ function Header({ location }) {
 export default function Layout(props) {
 
   const { location, title, children } = props;
-  const [headerClass, setHeaderClass] = useState("header-transparent");
-
-  useEffect(() => {
-    if (window && location.pathname === "/") {
-      window.addEventListener("scroll", handleScroll);
-
-      return () => window.removeEventListener("scroll", handleScroll);
-    }
-  }, [])
-
-  const handleScroll = () => {
-    if (window.scrollY > 534) {
-      setHeaderClass("header-white");
-    } else if (window.scrollY <= 534) {
-      setHeaderClass("header-transparent");
-    }
-  }
-
+  
   return (
     <Container>
       <Wrapper >
         <LayoutContainer >
           <div className="mx-auto" >
             <HeaderContainer >
-              <div className={classNames(headerClass, "row mb-0 justify-content-middle")}>
+              <div className={classNames("header-white row mb-0 justify-content-middle")}>
                 <Header location={location} />
               </div>
             </HeaderContainer>
-            <MainContainer className="position-relative row">
+            <MainContainer className="row">
               <main className="col-12">{children}</main>
             </MainContainer>
           </div>
@@ -86,14 +69,7 @@ const LayoutContainer = styled.div`
 `;
 
 const HeaderContainer = styled.div`
-  .header-transparent {
-    background-color:rgba(0, 0, 0, 0.2);
-
-    a {
-      color: white;
-    }
-  }
-
+ 
   .header-white {
     background-color: white;
     border-bottom: 1px solid #face11;
@@ -116,14 +92,14 @@ const HeaderContainer = styled.div`
     padding-bottom:0px;
   }
 
-  a:hover{
+  a:hover {
     text-decoration: underline !important;
   }
 
   .logo {
     img {
-      max-width: 125px;
-      max-height: 125px;
+      max-width: 150px;
+      max-height: 150px;
     }
   }
 
@@ -140,6 +116,7 @@ const Wrapper = styled.div`
   min-height: 100vh;
 `
 const MainContainer = styled.div`
+    position:relative;
     top:200px;
 `;
 
