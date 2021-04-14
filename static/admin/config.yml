@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: thomaswang/gatsby-personal-starter-blog
-
+  repo: coreyAdams1970/rats
+  branch: main
 media_folder: content/assets
 public_folder: ../assets
 
