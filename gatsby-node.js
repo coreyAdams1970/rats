@@ -1,6 +1,17 @@
 const path = require(`path`)
 const { createFilePath } = require(`gatsby-source-filesystem`)
 
+exports.onCreateNode = ({ node, getNode, actions }) => {
+  let parentNode = getNode(node.parent)
+  if (node.internal.type === "MarkdownRemark") {
+    if (parentNode.sourceInstanceName === "page-items") {
+    let slug = createFilePath({ node, getNode })
+    slug = slug.replace(/\//g, '');
+    actions.createNodeField({ node, name: "slug", value: slug })
+    }
+  }
+}
+
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
