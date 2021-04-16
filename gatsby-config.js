@@ -19,6 +19,7 @@ module.exports = {
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
+    `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-offline`,
@@ -69,6 +70,13 @@ module.exports = {
     },
     `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-root-import`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `blogs`,
+        path: `${__dirname}/content/blog-posts`,
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
