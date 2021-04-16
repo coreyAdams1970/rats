@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: coreyAdams1970/rats
+  repo: csmaller/rats
   branch: main
 media_folder: content/assets
 public_folder: ../assets
