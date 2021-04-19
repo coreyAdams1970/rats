@@ -1,14 +1,9 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import styled from "styled-components";
 //import ReactGA from 'react-ga';
 import { Form, Button } from "react-bootstrap";
 //ReactGA.initialize('G-GQ7PW6FH0Z');
-
-const ContactContainer = styled.div`
-    top:200px;
-`;
 
 export default function Contact(props) {
     const siteTitle = "RATS Band Contact page";
@@ -30,7 +25,7 @@ export default function Contact(props) {
         fetch("/", {
             method: "POST",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "RatsContactForm", ...data })
+            body: encode({ "form-name": "ratsContactForm", ...data })
         })
             .then(() => alert("Success!"))
             .catch(error => alert(error));
@@ -52,9 +47,6 @@ export default function Contact(props) {
                 </div>
             </div>
             <div className="row">
-                <div className="col-12 col-lg-2">
-
-                </div>
                 <div className="col-12 col-lg-8">
                     <Form name="ratsContactForm" onSubmit={handleSubmit} data-netlify="true" >
                         <input type="hidden" name="form-name" value="ratsContactForm" />
