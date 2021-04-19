@@ -23,6 +23,9 @@ function Header({ location }) {
         <Link to="/contact/" className="nav-button" disabled={location.pathname === "/contact/"}>
           Contact
         </Link>
+        <Link to="/songs/" className="nav-button" disabled={location.pathname === "/songs/"}>
+          Song List
+        </Link>
         <Link to="/blog/" className="nav-button" disabled={location.pathname === "/blog/"}>
           Dates and Band Info
         </Link>
