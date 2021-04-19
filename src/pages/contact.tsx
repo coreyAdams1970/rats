@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
+import PageHeader from "../components/pageHeader";
 //import ReactGA from 'react-ga';
 import { Form, Button } from "react-bootstrap";
 //ReactGA.initialize('G-GQ7PW6FH0Z');
@@ -41,11 +42,7 @@ export default function Contact(props) {
                 title="Contact"
                 keywords={[`rage against the supremes`, `park city music`, `utah wedding bands`, `salt lake city bands`]}
             />
-            <div className="row py-5">
-                <div className="col-12 text-center">
-                    <h3>Contact Us</h3>
-                </div>
-            </div>
+            <PageHeader title="Contact Us" />
             <div className="row">
                 <div className="col-12 col-lg-8">
                     <Form name="ratsContactForm" onSubmit={handleSubmit} data-netlify="true" >
