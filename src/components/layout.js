@@ -48,7 +48,7 @@ export default function Layout(props) {
                 <Header location={location} />
               </div>
             </HeaderContainer>
-            <MainContainer className="row">
+            <MainContainer className="row position-relative">
               <main className="col-12">{children}</main>
             </MainContainer>
           </div>
@@ -77,7 +77,7 @@ const HeaderContainer = styled.div`
     background-color: white;
     border-bottom: 1px solid #face11;
     a {
-      color: #face11;
+      color: #ae3a2d;
     }
   }
  
@@ -121,6 +121,8 @@ const Wrapper = styled.div`
 const MainContainer = styled.div`
     position:relative;
     top:200px;
+    margin-left: auto;
+    margin-right: auto;
 `;
 
 const Footer = styled.footer`

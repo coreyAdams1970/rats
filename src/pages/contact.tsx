@@ -68,25 +68,7 @@ export default function Contact(props) {
                         </Button>
                     </Form>
                 </div>
-                <div className="col-12 col-lg-2">
-
-                </div>
             </div>
-            {/* <form name="contactForm" onSubmit={handleSubmit} data-netlify="true" >
-                <input type="hidden" name="form-name" value="contact" />
-                <p>
-                    <label>Your Name: <input type="text" value={name} onChange={handleChange} name="name" /></label>
-                </p>
-                <p>
-                    <label>Your Email: <input type="email" name="email" value={email} onChange={handleChange} /></label>
-                </p>
-                <p>
-                    <label>Message: <textarea name="message" value={message} onChange={handleChange}></textarea></label>
-                </p>
-                <p>
-                    <button type="submit">Send</button>
-                </p>
-            </form> */}
         </Layout>
     )
 }
