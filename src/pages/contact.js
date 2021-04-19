@@ -56,8 +56,8 @@ export default function Contact(props) {
 
                 </div>
                 <div className="col-12 col-lg-8">
-                    <Form name="contactForm" onSubmit={handleSubmit} data-netlify="true" >
-                        <input type="hidden" name="form-name" value="contact" />
+                    <Form name="ratsContactForm" onSubmit={handleSubmit} data-netlify="true" >
+                        <input type="hidden" name="form-name" value="ratsContactForm" />
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
                             <Form.Control type="email" placeholder="Enter email" name="email" value={email} onChange={handleChange} />
