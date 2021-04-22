@@ -1,19 +1,25 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components";
 import "./style.scss";
 import Logo from "../../static/images/rats_logo.jpg";
 import classNames from "classnames";
+import { Helmet } from 'react-helmet'
+import favicon from "../../static/favicon.ico";
 
 const rootPath = `${__PATH_PREFIX__}/`
 const blogPath = `${__PATH_PREFIX__}/blog/`
 
-function Header({ location }) {
+function Header({ location, title = "Rage Against the Supremes" }) {
   return (
     <>
+      <Helmet>
+        <title>{title}</title>
+        <link rel="icon" href={favicon} />
+      </Helmet>
       <div className="col-lg-1 col-4">
         <Link className="d-flex logo" to={location.pathname === blogPath ? `/` : `/`} >
-          <img src={Logo} className="float-left" />
+          <img src={Logo} className="float-left" alt="logo" />
         </Link>
       </div>
       <nav className="col-lg-11 col-8 mb-4 mt-0 text-right mt-5 pr-5">
@@ -37,7 +43,7 @@ function Header({ location }) {
 export default function Layout(props) {
 
   const { location, title, children } = props;
-  
+
   return (
     <Container>
       <Wrapper >

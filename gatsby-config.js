@@ -26,64 +26,58 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-feed-mdx`,
-    {
-      resolve: "gatsby-plugin-local-search",
-      options: {
-        name: "blog",
-        engine: "flexsearch",
-        engineOptions: {
-          encode: "icase",
-          tokenize: "forward",
-          async: false,
-        },
-        query: `
-          {
-            allMdx {
-              nodes {
-                id
-                fields { slug }
-                excerpt
-                rawBody
-                frontmatter {
-                  title
-                  description
-                  date(formatString: "MMMM DD, YYYY")
-                }
-              }
-            }
-          }
-        `,
-        ref: "id",
-        index: ["title", "rawBody"],
-        store: ["id", "slug", "date", "title", "excerpt", "description"],
-        normalizer: ({ data }) =>
-          data.allMdx.nodes.map(node => ({
-            id: node.id,
-            slug: node.fields.slug,
-            rawBody: node.rawBody,
-            excerpt: node.excerpt,
-            title: node.frontmatter.title,
-            description: node.frontmatter.description,
-            date: node.frontmatter.date,
-          })),
-      },
-    },
+    // {
+    //   resolve: "gatsby-plugin-local-search",
+    //   options: {
+    //     name: "blog",
+    //     engine: "flexsearch",
+    //     engineOptions: {
+    //       encode: "icase",
+    //       tokenize: "forward",
+    //       async: false,
+    //     },
+    //     query: `
+    //       {
+    //         allMdx {
+    //           nodes {
+    //             id
+    //             fields { slug }
+    //             excerpt
+    //             rawBody
+    //             frontmatter {
+    //               title
+    //               description
+    //               date(formatString: "MMMM DD, YYYY")
+    //             }
+    //           }
+    //         }
+    //       }
+    //     `,
+    //     ref: "id",
+    //     index: ["title", "rawBody"],
+    //     store: ["id", "slug", "date", "title", "excerpt", "description"],
+    //     normalizer: ({ data }) =>
+    //       data.allMdx.nodes.map(node => ({
+    //         id: node.id,
+    //         slug: node.fields.slug,
+    //         rawBody: node.rawBody,
+    //         excerpt: node.excerpt,
+    //         title: node.frontmatter.title,
+    //         description: node.frontmatter.description,
+    //         date: node.frontmatter.date,
+    //       })),
+    //   },
+    // },
     `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-root-import`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blogs`,
-        path: `${__dirname}/content/blog-posts`,
-      },
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
+        name: `markdown-pages`,
         path: `${__dirname}/content/blog`,
-        name: `blog`,
       },
     },
+    `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -138,7 +132,7 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/rats_logo.png`,
       },
     },
     {
