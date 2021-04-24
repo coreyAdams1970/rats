@@ -1,35 +1,33 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import styled from "styled-components";
-import Songs from "../components/songlist";
-// import ReactGA from 'react-ga';
-import Slideshow from "../components/slideshow";
+import ReactGA from 'react-ga';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import YouTube from 'react-youtube';
 
-//ReactGA.initialize('G-GQ7PW6FH0Z');
+ReactGA.initialize(process.env.GOOGLE_ID);
 
-const images = [
-  "images/1.png",
-  "images/2.jpeg",
-  "images/3.jpeg",
-  "images/4.jpeg",
-];
+// const images = [
+//   "images/1.png",
+//   "images/2.jpeg",
+//   "images/3.jpeg",
+//   "images/4.jpeg",
+// ];
 
-const settings = {
-  dots: true,
-  infinite: true,
-  autoplay: true,
-  lazyLoad: true,
-  autoplaySpeed: 5000,
-  speed: 3000,
-  fade: true,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  className: 'slick-slider-fade',
-};
+// const settings = {
+//   dots: true,
+//   infinite: true,
+//   autoplay: true,
+//   lazyLoad: true,
+//   autoplaySpeed: 5000,
+//   speed: 3000,
+//   fade: true,
+//   slidesToShow: 1,
+//   slidesToScroll: 1,
+//   className: 'slick-slider-fade',
+// };
 
 const MainContainer = styled.div`
   
@@ -89,11 +87,11 @@ export default function IndexPage(props) {
     event.target.pauseVideo();
   }
 
-  // useEffect(() => {
-  //   if (typeof "window" !== "undefined") {
-  //     ReactGA.pageview(window.location.pathname + window.location.search);
-  //   }
-  // }, []);
+  useEffect(() => {
+    if (typeof "window" !== "undefined") {
+      ReactGA.pageview(window.location.pathname + window.location.search);
+    }
+  }, []);
 
   return (
     <Layout location={props.location} title={siteTitle}>

@@ -3,6 +3,9 @@ import SongList from "../components/songlist";
 import Layout from "../components/layout";
 import PageHeader from "../components/pageHeader";
 import styled from "styled-components";
+import ReactGA from "react-ga";
+
+ReactGA.initialize(process.env.GOOGLE_ID);
 
 const SongContainer = styled.div`
     padding-left: 80px;
