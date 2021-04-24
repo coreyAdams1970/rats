@@ -7,6 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import YouTube from 'react-youtube';
 
+console.log(process.env.GOOGLE_ID)
 ReactGA.initialize(process.env.GOOGLE_ID);
 
 // const images = [
