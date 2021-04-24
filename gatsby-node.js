@@ -11,6 +11,17 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       value,
     })
   }
+  if (node.internal.type === 'Mdx') {
+    const value = createFilePath({ node, getNode })
+    createNodeField({
+      // Individual MDX node
+      node,
+      // Name of the field you are adding
+      name: 'slug',
+      // Generated value based on filepath with "blog" prefix
+      value: `/blog${value}`
+    })
+  }
 }
 
 exports.createPages = async ({ graphql, actions }) => {
