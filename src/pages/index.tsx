@@ -7,31 +7,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import YouTube from 'react-youtube';
 
-console.log(process.env.GOOGLE_ID)
 ReactGA.initialize(process.env.GOOGLE_ID);
 
-// const images = [
-//   "images/1.png",
-//   "images/2.jpeg",
-//   "images/3.jpeg",
-//   "images/4.jpeg",
-// ];
-
-// const settings = {
-//   dots: true,
-//   infinite: true,
-//   autoplay: true,
-//   lazyLoad: true,
-//   autoplaySpeed: 5000,
-//   speed: 3000,
-//   fade: true,
-//   slidesToShow: 1,
-//   slidesToScroll: 1,
-//   className: 'slick-slider-fade',
-// };
-
 const MainContainer = styled.div`
-  
   .main-text {
     text-align: justify;
     background-color: white;
