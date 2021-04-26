@@ -10,6 +10,11 @@ ReactGA.initialize(process.env.GOOGLE_ID);
 const SongContainer = styled.div`
     padding-left: 80px;
     padding-right: 80px;
+
+    @media(max-width:750px){
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 `;
 
 const Songs = (props) => {
