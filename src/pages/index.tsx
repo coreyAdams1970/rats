@@ -1,4 +1,4 @@
-import React, {useEffect} from "react";
+import React, { useEffect } from "react";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import styled from "styled-components";
@@ -7,7 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import YouTube from 'react-youtube';
 
-ReactGA.initialize(process.env.GOOGLE_ID);
+ReactGA.initialize(process.env.GOOGLE_ID, { debug: true });
 
 const MainContainer = styled.div`
   .main-text {
@@ -76,7 +76,7 @@ export default function IndexPage(props) {
     <Layout location={props.location} title={siteTitle}>
       <SEO
         title="Home"
-        keywords={[`rage against the supremes`,`utah bands`, `rats band`, `park city bands`, `salt lake bands`]}
+        keywords={[`rage against the supremes`, `utah bands`, `rats band`, `park city bands`, `salt lake bands`]}
       />
 
       <MainContainer>
@@ -103,9 +103,9 @@ export default function IndexPage(props) {
               </p>
               </div>
             </div>*/}
-          </div> 
+          </div>
           <div className="col-12 col-lg-6 py-3 text-center">
-            <YouTube videoId={videoId} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper"/>
+            <YouTube videoId={videoId} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
           </div>
         </div>
       </MainContainer>
