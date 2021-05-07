@@ -2,10 +2,10 @@ import React from "react"
 import { Link } from "gatsby"
 import styled from "styled-components";
 import "./style.scss";
-import Logo from "../../static/images/rats_logo.jpg";
+import Logo from "../../content/assets/logo_transparent.png";
 import classNames from "classnames";
 import { Helmet } from 'react-helmet'
-import favicon from "../../static/favicon.ico";
+import favicon from "../../static/favicon2.ico";
 
 const rootPath = `${__PATH_PREFIX__}/`
 const blogPath = `${__PATH_PREFIX__}/blog/`

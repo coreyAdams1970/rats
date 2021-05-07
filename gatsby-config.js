@@ -136,7 +136,7 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         // edit below
-        icon: `content/assets/rats_logo.png`,
+        icon: `content/assets/logo_transparent.png`,
       },
     },
     {
