@@ -4,6 +4,7 @@ import SEO from "../components/seo";
 import PageHeader from "../components/pageHeader";
 import ReactGA from 'react-ga';
 import { Form, Button } from "react-bootstrap";
+import Honeypot from "../components/honeypot";
 
 ReactGA.initialize(process.env.GOOGLE_ID);
 
@@ -43,6 +44,7 @@ export default function Contact(props) {
                 title="Contact"
                 keywords={[`rage against the supremes`, `park city music`, `utah wedding bands`, `salt lake city bands`]}
             />
+            <Honeypot/>
             <PageHeader title="Contact Us" />
             <div className="row">
                 <div className="col-12 col-lg-8">
