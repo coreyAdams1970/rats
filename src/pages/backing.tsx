@@ -23,7 +23,7 @@ const Backing = () => {
     return (
         <div>
             {tracks.map((track, index) => {
-                <Track key={index} src={track.src} title={track.title} />
+                return <Track key={index} src={track.src} title={track.title} />
             })}
 
         </div>
