@@ -3,14 +3,14 @@ import ReactAudioPlayer from 'react-audio-player';
 
 const Backing = () => {
     return (
-        <>
-            <h3> Adore You backing tracks</h3>
+        <div className="pt-5 px-5">
+            <h3> Adore You backing tracks (right click to download)</h3>
             <ReactAudioPlayer
                 src="assets/adore_you.mp3"
                 autoPlay={false}
                 controls
             />
-        </>
+        </div>
     )
 }
 
