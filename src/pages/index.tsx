@@ -6,6 +6,8 @@ import ReactGA from 'react-ga';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import YouTube from 'react-youtube';
+import { graphql } from "gatsby";
+import { MDXRenderer } from "gatsby-plugin-mdx"
 
 ReactGA.initialize(process.env.GOOGLE_ID, { debug: true });
 
@@ -49,12 +51,11 @@ const MainContainer = styled.div`
 `;
 
 export default function IndexPage(props) {
-
+  const post = props.data.mdx;
   const siteTitle = "Rage Against The Supremes";
   const videoId = "sEy4_hRjuqc";
   const opts = {
-    height: '390',
-    width: '640',
+    width: '800',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 0,
@@ -71,12 +72,9 @@ export default function IndexPage(props) {
       ReactGA.pageview(window.location.pathname + window.location.search);
 
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag() { dataLayer.push(arguments); }
       gtag('js', new Date());
-
       gtag('config', 'G-4G7LKPFTXH');
-      
-
     }
   }, []);
 
@@ -88,18 +86,24 @@ export default function IndexPage(props) {
       />
 
       <MainContainer>
-        {/* <div className="row w-100">
-          <div className="col-12 px-0 pb-3 slider-main-container">
-            <Slideshow wrapperClass="images-slider" images={images} settings={settings} key="image-slider" />
-          </div>
-        </div> */}
         <div className="row main-text mt-5 px-2">
           <div className="col-12 col-lg-6 px-5">
             <div className="col-12">
               <h3 className="text-center pb-1">Welcome to RATS Band</h3>
             </div>
           </div>
-          <div className="col-12 col-lg-6 py-3 text-center">
+        </div>
+        <div className="row">
+          <div className="col-12 col-lg-6">
+            <MDXRenderer>{post.body}</MDXRenderer>
+          </div>
+          <div className="col-12 col-lg-6">
+            <img src={`/${post.frontmatter.image}`} />
+          </div>
+        </div>
+        <div className="row mt-5 px-2">
+
+          <div className="col-12 py-3 text-center justify-content-center">
             <YouTube videoId={videoId} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
           </div>
         </div>
@@ -107,3 +111,19 @@ export default function IndexPage(props) {
     </Layout>
   )
 }
+
+export const pageQuery = graphql`
+query MainQuery {
+    mdx(frontmatter: {path: {eq: "about"}, title: {}}) {
+      frontmatter {
+        date(formatString: "MMMM D,y")
+        description
+        image
+        path
+        title
+      }
+      body
+    }
+  }
+
+`;

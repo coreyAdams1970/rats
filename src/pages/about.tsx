@@ -6,7 +6,7 @@ import Layout from "../components/layout";
 
 const About = (props) => {
     const post = props.data.mdx;
-console.log(post.excerpt)
+
     return (
         <Layout location={props.location} title={post.frontmatter.title}>
             <SEO
