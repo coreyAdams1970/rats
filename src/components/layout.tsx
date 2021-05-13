@@ -32,9 +32,7 @@ function Header({ location, title = "Rage Against the Supremes" }) {
         <Link to="/songs/" className="nav-button" disabled={location.pathname === "/songs/"}>
           Song List
         </Link>
-        <Link to="/about/" className="nav-button" disabled={location.pathname === "/about/"}>
-          About
-        </Link>
+        
       </nav>
     </>
   );
