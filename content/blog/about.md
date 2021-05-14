@@ -5,8 +5,6 @@ title: About
 description: all about RATS
 image: assets/rats_live.jpg
 ---
-We are available for clubs, private parties, apres ski, weddings, and funerals!
-
 <h3>About</h3>
 It all started in Tibet, 2006.  Ray was in search of the famed "13th Note" and taking up residency at a local buddhist colony after years fighting in Kumate as "NunSookOw" which translates roughly to "Bad Bass Playing Vato".
 
