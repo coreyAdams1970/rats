@@ -5,18 +5,12 @@ title: dates
 description: dates
 image: assets/rats_live.jpg
 ---
-##### June
+June 11 – The Spur.   Park City. 10-1
 
-> 11 – The Spur.   Park City. 10pm-1am
->
-> 18 – The Cabin. Park City.  10pm-1am
->
-> 19 – Barn gig (tentative), Park City
+June 18 – The Cabin. Park City.  10-1
 
-##### July
+June 19 – The Barn, Park City
 
-> 24 – Wedding - Solitude
-
-##### Oct.
-
-> 9 - Wedding.  Victory Ranch.
+July 24.  Wedding.
+ 
+Oct 9 - Wedding.
