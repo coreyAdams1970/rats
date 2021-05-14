@@ -4,7 +4,8 @@ backend:
   branch: main
 media_folder: static/assets
 public_folder: assets
-
+display_url: https://www.ratsband.com
+logo_url: https://www.ratsband.com/images/rats_logo.jpg
 collections:
   - name: blog
     label: Blog
@@ -15,5 +16,5 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: description, label: Description }
-      - { name: image, label: Image, widget: image }
+      - { label: "Featured Image", name: image, widget: image, required: false }
       - { name: body, label: Body, widget: markdown }
