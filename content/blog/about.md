@@ -17,7 +17,7 @@ The name Rage Against the Supremes was thrown out on the flight back, after many
 
 "This is the dumbest name ever." Skylar, the lead guitarist and only remnant of House Targaryan,  was rumored to say during one of the many Band Name meetings the future members would have in the opium dens in and around Salt Lake City.
 
-"We need it to be metal. We need it to be mean, but kinda funny, but also self deprecating, and sexy, and mean!  Did I say mean twice? I mean, really really mean!" Thomas would say, in between hits off his vape-o-mushroom pen.
+"We need it to be metal. We need it to be mean, but kinda funny, but also self deprecating, and sexy, and mean!  Did I say mean twice? I mean, really really mean!" Thomas the drummer would say, in between hits off his vape-o-mushroom pen.
 
 "No guys, we just need a name. Doesn't matter. We don't need our name to define us! We just can't wear wigs or makeup or masks! I mean this! I won't do it!" Corey the head cheerleader said, exasperated after ten weeks of band name tryouts, wig fittings, and opium den admittance fees.
 
