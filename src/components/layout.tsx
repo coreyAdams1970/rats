@@ -86,9 +86,6 @@ const HeaderContainer = styled.div`
   }
  
   border-bottom: 1px solid rgba(255, 255, 255, .2);
-  position: fixed;
-  top: 0;
-  left: 0;
   width:100%;
   z-index:10000;
 
@@ -123,8 +120,6 @@ const Wrapper = styled.div`
   min-height: 100vh;
 `
 const MainContainer = styled.div`
-    position:relative;
-    top:200px;
     margin-left: auto;
     margin-right: auto;
 `;
