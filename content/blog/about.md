@@ -5,7 +5,7 @@ title: about
 description: all about RATS
 image: assets/rats_live.jpg
 ---
-<h3>How it began...</h3>
+<h5>How it began...</h5>
 
 It all started in Tibet, 2006.  Ray was in search of the famed "13th Note" and taking up residency at a local buddhist colony after years fighting Kumate as "NunSookOw" which translates roughly to "Funky Bass Playing Guy".
 
@@ -29,4 +29,4 @@ And around and around they went. Somewhere in the middle there they learned some
 
 And just like that:  after months of soul-searching, cage-fighting, more soul-searching, knitting, drinking, winning, losing, winning again, winning some more, ultimately losing and finally admitting defeat, Rage Against the Supremes were born.  
 
-We are available for clubs, bars, get togethers, weddings, funerals, and bar mitsvahs.
+[We are available for clubs, bars, get togethers, weddings, funerals, and bar mitsvahs.](https://www.ratsband.com/contact)
