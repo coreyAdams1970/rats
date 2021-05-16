@@ -55,6 +55,7 @@ const MainContainer = styled.div`
 export default function IndexPage(props) {
   const about = props.data.about;
   const dates = props.data.dates;
+  const news = props.data.news;
   const siteTitle = "Rage Against The Supremes";
   const videoId = "sEy4_hRjuqc";
   const opts = {
@@ -87,17 +88,14 @@ export default function IndexPage(props) {
       />
 
       <MainContainer>
-        {/* <div className="row main-text mt-5 px-2">
-          <div className="col-12 col-lg-6 px-5">
-            <div className="col-12">
-              <h3 className="text-center pb-1">Welcome to RATS Band</h3>
-            </div>
-          </div>
-        </div> */}
-       
         <div className="row pt-5">
-          <Dates dates={dates} className="col-12 col-lg-3" title="Upcoming Shows"/>
-          <About about={about} textClassName="col-12 col-lg-4" imageClassName="col-12 col-lg-5" />
+          <div className="col-12 col-lg-3">
+            {news && <Dates dates={news} title="News" className="news"/>}
+            <Dates dates={dates} title="Upcoming Shows" className="dates"/>
+          </div>
+          <div className="col-12 col-lg-9">
+            <About about={about} textClassName="col-12 col-lg-5" imageClassName="col-12 col-lg-7" />
+          </div>
         </div>
         <div className="row mt-5 px-2">
           <div className="col-12 py-3 text-center justify-content-center">
@@ -111,7 +109,7 @@ export default function IndexPage(props) {
 
 export const pageQuery = graphql`
 query {
-    about : mdx(frontmatter: {path: {eq: "about"}, title: {}}) {
+    about : mdx(frontmatter: {path: {eq: "about"}}) {
       frontmatter {
         date(formatString: "MMMM D,y")
         description
@@ -121,7 +119,17 @@ query {
       }
       body
     }
-    dates: mdx(frontmatter: {path: {eq: "dates"}, title: {}}) {
+    dates: mdx(frontmatter: {path: {eq: "dates"}}) {
+        frontmatter {
+          date(formatString: "MMMM D,y")
+          description
+          image
+          path
+          title
+        }
+        body
+      }
+      news: mdx(frontmatter: {path: {eq: "news"}}) {
         frontmatter {
           date(formatString: "MMMM D,y")
           description
