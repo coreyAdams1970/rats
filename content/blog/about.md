@@ -19,17 +19,15 @@ After going through a rigorous customs ritual involving a garden hose, duct tape
 
 The name 'Rage Against the Supremes' was thrown out on the flight back after many double orders of the airlines drink special: The Pan-Atlantic Killer Hornet(a drink of such inspiration inducing epicness it was rumored to once have inspired Jimmy Page to start the band that would change the world: The Firm). 
 
-The men never remembered even thinking of the ridiculous name which was a play on words on an already popular band at the time (Soundgarden). Later on at the first Band Meeting To Discuss Stupid Names held at the local Denny's on 600 south and main.
+The ridiculous name which was a play on words on an already popular band at the time (Soundgarden) was brought up at the fiftieth or so  'Band Meeting To Discuss Stupid Names' held at the local Denny's on 600 south and main. Booth three. Section one. 
 
-"This is the dumbest name ever." Skylar, the lead guitarist and only remnant of House Targaryan,  was rumored to say.
+"This is the dumbest name I have ever, EVER heard!" Skylar, the lead guitarist and only remnant of House Targaryan,  was rumored to utter.
 
-"We need it to be metal. We need it to be mean...but kinda funny, ya know? And also self deprecating, but sexy, and mean!  Did I say mean twice? I mean, really, really mean!" Thomas the drummer would say, in between hits off his vape-o-mushroom pen.
+"We need it to be metal. We need it to be mean...but kinda funny, ya know? And also self deprecating, but sexy, and mean!  Did I say mean twice? I mean, really, really mean!" Thomas the drummer would ramble, in between hits off his vape-o-mushroom pen.
 
-"No guys, we just need a name. Doesn't matter. And I'm not wearing a wig!" Corey said, exasperated after ten weeks of band name tryouts, wig fittings, and opium den admittance fees.
+"No guys, we just need a name. Doesn't matter. And I'm not wearing a wig!" Corey declared, exasperated after ten weeks of band name tryouts, wig fittings, and opium den admittance fees.
 
-"Ok, names and stuff!" Ray would interject, in between bites of fried Kathmandu tofu.
-
-And around and around they went. Somewhere in the middle there they learned some songs and their instruments and stuff.
+"Ok, fine. I give up, let's just go with that ridiculous name you were screaming into the telecom on the flight back before the sky marshall tackled you." Ray would interject, in between bites of fried Kathmandu tofu.
 
 And just like that:  after months of soul-searching, cage-fighting, more soul-searching, knitting, drinking, winning, losing, winning again, winning some more, ultimately losing and finally admitting defeat, Rage Against the Supremes were born.  
 
