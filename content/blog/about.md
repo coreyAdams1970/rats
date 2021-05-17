@@ -13,17 +13,21 @@ Corey was buskering just down the street in Kathmandu.  Ray would walk by daily 
 
 One day Ray mentioned starting a band of such epic proportions, such versatility, and such danger that it would need a really dumb name to make itself stand out. 
 
-Twenty years later the duo returned to the States with a slew of heddy cover tunes under their belts.  After going through a rigorous customs ritual involving a garden hose, duct tape , and rubber gloves the duo settled in Utah to start their Dream Band.  
+Twenty years later the duo returned to the States with a slew of heddy cover tunes, packets of authentic Kathmandu tofu,  and the will to succeed at Cover Banding.  
 
-The name Rage Against the Supremes was thrown out on the flight back, after many Pan-Atlantic Gargle Blasters.  The men never remembered even thinking of the ridiculous name which was a play on words on an already popular band at the time (Soundgarden).   Later Corey would discover it was tattooed onto his lower back somehow and remembered.
+After going through a rigorous customs ritual involving a garden hose, duct tape, a nine iron, and rubber gloves, the duo was in Utah.  
 
-"This is the dumbest name ever." Skylar, the lead guitarist and only remnant of House Targaryan,  was rumored to say during one of the many band name meetings  they would have in the opium dens in and around Salt Lake City.
+The name 'Rage Against the Supremes' was thrown out on the flight back after many double orders of the airlines drink special: The Pan-Atlantic Killer Hornet(a drink of such inspiration inducing epicness it was rumored to once have inspired Jimmy Page to start the band that would change the world: The Firm). 
 
-"We need it to be metal. We need it to be mean...but kinda funny, ya know? And also self deprecating, and sexy, and mean!  Did I say mean twice? I mean, really really mean!" Thomas the drummer would say, in between hits off his vape-o-mushroom pen.
+The men never remembered even thinking of the ridiculous name which was a play on words on an already popular band at the time (Soundgarden). Later on at the first Band Meeting To Discuss Stupid Names held at the local Denny's on 600 south and main.
+
+"This is the dumbest name ever." Skylar, the lead guitarist and only remnant of House Targaryan,  was rumored to say.
+
+"We need it to be metal. We need it to be mean...but kinda funny, ya know? And also self deprecating, but sexy, and mean!  Did I say mean twice? I mean, really, really mean!" Thomas the drummer would say, in between hits off his vape-o-mushroom pen.
 
 "No guys, we just need a name. Doesn't matter. And I'm not wearing a wig!" Corey said, exasperated after ten weeks of band name tryouts, wig fittings, and opium den admittance fees.
 
-"That LITERALLY is what a name does!" Ray would argue. 
+"Ok, names and stuff!" Ray would interject, in between bites of fried Kathmandu tofu.
 
 And around and around they went. Somewhere in the middle there they learned some songs and their instruments and stuff.
 
