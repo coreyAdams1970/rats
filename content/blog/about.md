@@ -15,9 +15,7 @@ One day Ray mentioned starting a band of such epic proportions, such versatility
 
 Twenty years later the duo returned to the States with a slew of heddy cover tunes, packets of authentic Kathmandu tofu,  and the will to succeed at Cover Banding.  
 
-After going through a rigorous customs ritual involving a garden hose, duct tape, a nine iron, and rubber gloves, the duo was in Utah.  
-
-The name 'Rage Against the Supremes' was thrown out on the flight back after many double orders of the airlines drink special: The Pan-Atlantic Killer Hornet(a drink of such inspiration inducing epicness it was rumored to once have inspired Jimmy Page to start the band that would change the world: The Firm). 
+The name 'Rage Against the Supremes' was thrown out on the flight back after many double orders of the airlines drink special: The Pan-Atlantic Killer Hornet(a drink of such inspiration inducing epicness it was rumored to once have inspired Jimmy Page to start the band that would change the world: The Firm).  
 
 The ridiculous name which was a play on words on an already popular band at the time (Soundgarden) was brought up at the fiftieth or so  'Band Meeting To Discuss Stupid Names' held at the local Denny's on 600 south and main. Booth three. Section one. 
 
