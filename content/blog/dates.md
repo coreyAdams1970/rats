@@ -5,7 +5,7 @@ title: dates
 description: dates
 image: ""
 ---
-May 20 - Corey Acoustic - Hogwallow Pub 8:30-11:30
+June 5 / 6 - Localz Bistro (Corey Acoustic) 6-9
 
 June 11 – The Spur 10-1
 
