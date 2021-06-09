@@ -5,9 +5,7 @@ title: dates
 description: dates
 image: ""
 ---
-June 5  - [Localz Bistro](https://localzbistro.com/) (Corey Acoustic) 6-9
 
-June 6 - Localz Bistro (Corey Acoustic) 6-9
 
 June 11 – [The Spur](http://www.thespurbarandgrill.com/) 10-1
 
@@ -15,10 +13,16 @@ June 18 – [The Cabin](https://www.thecabinparkcity.com/)  10-1
 
 June 19 – [The Spur](http://www.thespurbarandgrill.com/) 10-1
 
-July 24 - Wedding
+<br/>
 
 July 10 - [The Spur](http://www.thespurbarandgrill.com/) 10-1
 
+July 24 - Wedding
+
+<br/>
+
 August 14 - [The Spur ](http://www.thespurbarandgrill.com/)10-1
+
+<br/>
 
 Oct 9 - Wedding
