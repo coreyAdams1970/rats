@@ -5,8 +5,6 @@ title: dates
 description: dates
 image: ""
 ---
-
-
 June 11 – [The Spur](http://www.thespurbarandgrill.com/) 10-1
 
 June 18 – [The Cabin](https://www.thecabinparkcity.com/)  10-1
@@ -15,11 +13,15 @@ June 19 – [The Spur](http://www.thespurbarandgrill.com/) 10-1
 
 <br/>
 
+July 9 - Upstairs at The Spur (Corey Acoustic) 7-10
+
 July 10 - [The Spur](http://www.thespurbarandgrill.com/) 10-1
 
 July 24 - Wedding
 
 <br/>
+
+August 13 - Upstairs at The Spur (Corey Acoustic) 7-10
 
 August 14 - [The Spur ](http://www.thespurbarandgrill.com/)10-1
 
