@@ -3,10 +3,7 @@ import ReactAudioPlayer from 'react-audio-player';
 
 const tracks = [
     { title: "Adore You", src: "/assets/adore_you.mp3" },
-    { title: "Thrift Shop", src: "/assets/thrift_shop.mp3" },
-    { title: "Uptown Funk", src: "/assets/uptown_funk.mp3" },
-    { title: "Shape Of You", src: "/assets/shape_of_you.mp3" },
-    { title: "Don't", src: "/assets/dont.mp3" },
+    { title: "Come And Get Your Love", src: "/assets/come_get_love_NO_VOCAL.mp3" },
 
 ]
 const Track = ({ src, title }) =>
