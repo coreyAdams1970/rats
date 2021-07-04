@@ -28,8 +28,8 @@ collections:
       label: "Song List"
       name: "songList"
       fields:
-      - name: Songs
-        label: Songs
+      - name: songs
+        label: songs
         widget: list
         fields:
         - name: songObject
