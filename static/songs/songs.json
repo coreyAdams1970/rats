@@ -294,7 +294,21 @@
     },
     {
       "title": "Play That Funky Music White Boy",
-      "artist": "Wild Cherry"
+      "artist": "Wild Cherry",
+      "songObject": [
+        {
+          "title": "Shape of You",
+          "artist": "Ed Sheeren"
+        }
+      ]
+    },
+    {
+      "songObject": [
+        {
+          "title": "Last Train Home",
+          "artist": "John Mayer"
+        }
+      ]
     }
   ],
   "Songs": [
