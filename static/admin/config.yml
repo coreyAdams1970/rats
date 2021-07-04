@@ -29,7 +29,7 @@ collections:
     - file: "static/songs/songs.json"
       label: "Song List"
       name: "songList"
-    fields:
+      fields:
       - name: Songs
         label: Songs
         widget: list
