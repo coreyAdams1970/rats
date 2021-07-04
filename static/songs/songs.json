@@ -294,23 +294,7 @@
     },
     {
       "title": "Play That Funky Music White Boy",
-      "artist": "Wild Cherry",
-      "songObject": [
-        {
-          "title": "Shape of You",
-          "artist": "Ed Sheeren"
-        }
-      ]
-    },
-    {
-      "songObject": [
-        {
-          "title": "Last Train Home",
-          "artist": "John Mayer"
-        }
-      ],
-      "title": "Amber",
-      "artist": "311"
+      "artist": "Wild Cherry"
     },
     {
       "title": "The Middle",
@@ -323,16 +307,6 @@
     {
       "title": "Basket Case",
       "artist": "Green Day"
-    }
-  ],
-  "Songs": [
-    {
-      "songObject": [
-        {
-          "song": "testin",
-          "artist": "testing"
-        }
-      ]
     }
   ]
 }
