@@ -18,3 +18,25 @@ collections:
       - { name: description, label: Description }
       - { label: "Featured Image", name: image, widget: image, required: false }
       - { name: body, label: Body, widget: markdown }
+
+  - name: "songs"
+    label: "Songs"
+    extension: "json"
+    editor:
+      preview: false
+
+    files:
+    - file: "static/songs/songs.json"
+      label: "Song List"
+      name: "songList"
+    fields:
+      - name: Songs
+        label: Songs
+        widget: list
+        fields:
+        - name: songObject
+          label: Song Object
+          widget: list
+          fields: 
+          - {name: song}
+          - {name: artist}
