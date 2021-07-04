@@ -22,8 +22,6 @@ collections:
   - name: "songs"
     label: "Songs"
     extension: "json"
-    editor:
-      preview: false
 
     files:
     - file: "static/songs/songs.json"
@@ -38,5 +36,5 @@ collections:
           label: Song Object
           widget: list
           fields: 
-          - {name: song}
+          - {name: title}
           - {name: artist}
