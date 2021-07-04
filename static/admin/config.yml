@@ -32,9 +32,5 @@ collections:
         label: songs
         widget: list
         fields:
-        - name: songObject
-          label: Song Object
-          widget: list
-          fields: 
           - {name: title}
           - {name: artist}
