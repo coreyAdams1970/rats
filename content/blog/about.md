@@ -7,9 +7,9 @@ image: assets/rats_live.jpg
 ---
 <h5>How it began...</h5>
 
-It all started in Tibet, 2006.  Ray was in search of the famed "13th Note" and taking up residency at a local buddhist colony after years fighting Kumate as "NunSookOw" which translates roughly to "Funky Bass Playing Guy".
+It all started in Tibet, 2006.  Ray was in search of the famed "13th Note" and taking up residency at a local buddhist colony after years fighting Kumate as "Nun Sook Ow" which translates roughly to "Funky Bass Playing Guy".
 
-Corey was buskering just down the street in Kathmandu.  Ray would walk by daily and would sometimes sit in on his sitar playing old Sonny and Cher songs in between bites of  of tofu and wheatgrass. 
+Corey was buskering just down the street in Kathmandu.  Ray would walk by daily and would sometimes sit in on his sitar playing old Sonny and Cher songs in between bites of tofu and wheatgrass. 
 
 One day Ray mentioned starting a band of such epic proportions, such versatility, and such danger that it would need a really dumb name to make itself stand out. 
 
