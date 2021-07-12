@@ -57,7 +57,7 @@ export default function IndexPage(props) {
   const dates = props.data.dates;
   const news = props.data.news;
   const siteTitle = "Rage Against The Supremes";
-  const videoId = "sEy4_hRjuqc";
+  const videoIds = ["sEy4_hRjuqc", "wEufbMJwMLY", "FQFgkm-KZsE","YI3OZfkksOo", "LKu6LQCbcEc","MBZuiAcXGfo","DNwFsFCJoUg","4cfL0d273QA","BuAEOjdMNG0"];
   const opts = {
     width: '800',
     playerVars: {
@@ -90,18 +90,21 @@ export default function IndexPage(props) {
       <MainContainer>
         <div className="row pt-5">
           <div className="col-12 col-lg-3">
-            {news && <Dates dates={news} title="News" className="news"/>}
-            <Dates dates={dates} title="Upcoming Shows" className="dates"/>
+            {news && <Dates dates={news} title="News" className="news" />}
+            <Dates dates={dates} title="Upcoming Shows" className="dates" />
           </div>
           <div className="col-12 col-lg-9">
             <About about={about} textClassName="col-12 col-lg-5" imageClassName="col-12 col-lg-7" />
           </div>
         </div>
-        <div className="row mt-5 px-2">
-          <div className="col-12 py-3 text-center justify-content-center">
-            <YouTube videoId={videoId} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
-          </div>
-        </div>
+        {videoIds.map(videoId => {
+          return (<div className="row mt-5 px-2">
+                  <div className="col-12 py-3 text-center justify-content-center">
+                    <YouTube videoId={videoId} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
+                  </div>
+                </div>)
+        })}
+
       </MainContainer>
     </Layout>
   )
