@@ -7,9 +7,7 @@ image: ""
 ---
 
 
-July 9 - Upstairs at [The Spur ](http://www.thespurbarandgrill.com/)(Corey Acoustic) 7-10
-
-July 10 - The Spur 10-1
+July 23 - [Hogwallow](https://thehogwallow.com/) 9:30-120:30
 
 July 24 - Wedding
 
