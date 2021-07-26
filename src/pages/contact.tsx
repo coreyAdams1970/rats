@@ -18,6 +18,10 @@ export default function Contact(props) {
         }
       }, []);
 
+      useEffect(()=>{
+        console.log(data);
+      },[data])
+      
     const encode = (data) => {
         return Object.keys(data)
             .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -36,7 +40,10 @@ export default function Contact(props) {
         e.preventDefault();
     };
 
-    const handleChange = e => setData({ ...data, [e.target.name]: e.target.value });
+    const handleChange = e => {
+
+        setData({ ...data, [e.target.name]: e.target.value });
+    }
     const { name, email, message } = data;
     return (
         <Layout location={props.location} title={siteTitle}>

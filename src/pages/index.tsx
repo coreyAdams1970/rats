@@ -57,7 +57,7 @@ export default function IndexPage(props) {
   const dates = props.data.dates;
   const news = props.data.news;
   const siteTitle = "Rage Against The Supremes";
-  const videoIds = ["sEy4_hRjuqc", "wEufbMJwMLY", "FQFgkm-KZsE","YI3OZfkksOo", "LKu6LQCbcEc","MBZuiAcXGfo","DNwFsFCJoUg","4cfL0d273QA","BuAEOjdMNG0"];
+  const videoIds = ["Bs8BvYErtu0", "sEy4_hRjuqc", "wEufbMJwMLY", "FQFgkm-KZsE", "YI3OZfkksOo", "LKu6LQCbcEc", "MBZuiAcXGfo", "DNwFsFCJoUg", "4cfL0d273QA", "BuAEOjdMNG0"];
   const opts = {
     width: '800',
     playerVars: {
@@ -99,10 +99,10 @@ export default function IndexPage(props) {
         </div>
         {videoIds.map(videoId => {
           return (<div className="row mt-5 px-2">
-                  <div className="col-12 py-3 text-center justify-content-center">
-                    <YouTube videoId={videoId} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
-                  </div>
-                </div>)
+            <div className="col-12 py-3 text-center justify-content-center">
+              <YouTube videoId={videoId} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
+            </div>
+          </div>)
         })}
 
       </MainContainer>
