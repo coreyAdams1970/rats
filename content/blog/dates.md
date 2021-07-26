@@ -5,12 +5,6 @@ title: dates
 description: dates
 image: ""
 ---
-
-
-July 23 - [Hogwallow](https://thehogwallow.com/) 9:30-120:30
-
-July 24 - Wedding
-
 July 30 - Corey Acoustic - Upstairs at [The Spur](http://www.thespurbarandgrill.com/) 7-10
 
 <br/>
