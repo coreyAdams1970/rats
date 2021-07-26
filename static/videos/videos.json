@@ -1,9 +1,36 @@
 {
-    "videos": [
-      {
-        "id": "Bs8BvYErtu0",
-        "title": "Solitude, UT - Wedding"
-      }
-      
-    ]
-  }
+  "videos": [
+    {
+      "id": "Bs8BvYErtu0",
+      "title": "Solitude, UT - Wedding"
+    },
+    {
+      "id": "sEy4_hRjuqc",
+      "title": "What I Got"
+    },
+    {
+      "id": "wEufbMJwMLY",
+      "title": "Maybe It's Time"
+    },
+    {
+      "id": "FQFgkm-KZsE",
+      "title": "Thrift Shop"
+    },
+    {
+      "id": "YI3OZfkksOo",
+      "title": "Live At The Spur"
+    },
+    {
+      "id": "LKu6LQCbcEc",
+      "title": "Friends In Low Places"
+    },
+    {
+      "id": "MBZuiAcXGfo",
+      "title": "80s Same Platter"
+    },
+    {
+      "id": "DNwFsFCJoUg",
+      "title": "Badfish"
+    }
+  ]
+}
