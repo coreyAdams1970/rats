@@ -34,3 +34,19 @@ collections:
         fields:
           - {name: title}
           - {name: artist}
+
+  - name: "videos"
+    label: "Videos"
+    extension: "json"
+
+    files:
+    - file: "static/videos/videos.json"
+      label: "Video List"
+      name: "videoList"
+      fields:
+      - name: videos
+        label: videos
+        widget: list
+        fields:
+          - {name: id}
+          - {name: title}
