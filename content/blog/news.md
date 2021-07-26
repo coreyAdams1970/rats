@@ -4,8 +4,8 @@ date: 2021-05-16T20:09:15.072Z
 title: news
 description: news
 ---
-We had such an incredible time rocking out the Spur and The Cabin. Thanks to all who made it out!  
+Such a fun wedding at[ Solitude Ski Resort](https://www.solitudemountain.com/) this past weekend. 
 
+Sound, lighting and videos by [Event Right LLC ](https://eventrightllc.com/)
 
-
-More new tunes coming. Hope to see you In July !
+Check out the video below!
