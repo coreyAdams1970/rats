@@ -9,7 +9,7 @@ import YouTube from 'react-youtube';
 import { graphql } from "gatsby";
 import About from "../components/about";
 import Dates from "../components/dates";
-
+import videoList from "../static/videos/videos";
 
 ReactGA.initialize(process.env.GOOGLE_ID, { debug: true });
 
@@ -97,14 +97,15 @@ export default function IndexPage(props) {
             <About about={about} textClassName="col-12 col-lg-5" imageClassName="col-12 col-lg-7" />
           </div>
         </div>
-        {videoIds.map(videoId => {
-          return (<div className="row mt-5 px-2">
-            <div className="col-12 py-3 text-center justify-content-center">
-              <YouTube videoId={videoId} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
+        {videoList.videos.map((video, index) => {
+            return (
+              <div className="row mt-5 px-2" key={index}>
+                <div className="col-12 py-3 text-center justify-content-center">
+                  <YouTube videoId={video.id} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
+                </div>
             </div>
-          </div>)
+          )
         })}
-
       </MainContainer>
     </Layout>
   )
