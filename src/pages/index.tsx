@@ -9,7 +9,7 @@ import YouTube from 'react-youtube';
 import { graphql } from "gatsby";
 import About from "../components/about";
 import Dates from "../components/dates";
-import videoList from "../static/videos/videos";
+import videoList from "../../static/videos/videos";
 
 ReactGA.initialize(process.env.GOOGLE_ID, { debug: true });
 
