@@ -55,28 +55,28 @@ export default function Contact(props) {
             <PageHeader title="Contact Us" />
             <div className="row">
                 <div className="col-12 col-lg-8">
-                    <Form name="ratsContactForm" onSubmit={handleSubmit} data-netlify="true" >
-                        <input type="hidden" name="form-name" value="ratsContactForm" />
-                        <Form.Group controlId="formBasicEmail">
+                <form name={process.env.FORM_NAME} onSubmit={handleSubmit} data-netlify="true" method="POST">
+                        <input type="hidden" name="form-name" value={process.env.FORM_NAME} />
+                        <Form.Group controlId="email">
                             <Form.Label>Email address</Form.Label>
                             <Form.Control type="email" placeholder="Enter email" name="email" value={email} onChange={handleChange} />
                             <Form.Text className="text-muted">
                                 We'll never share your email with anyone else.
-                    </Form.Text>
+                            </Form.Text>
                         </Form.Group>
-                        <Form.Group controlId="formBasicEmail">
+                        <Form.Group controlId="name">
                             <Form.Label>Name</Form.Label>
                             <Form.Control placeholder="enter your name" type="text" value={name} onChange={handleChange} name="name" />
 
                         </Form.Group>
-                        <Form.Group controlId="formBasicEmail">
+                        <Form.Group controlId="message">
                             <Form.Label>Message</Form.Label>
                             <Form.Control as="textarea" rows={3} name="message" value={message} onChange={handleChange} />
                         </Form.Group>
                         <Button variant="primary" type="submit">
                             Submit
                         </Button>
-                    </Form>
+                    </form>
                 </div>
             </div>
         </Layout>

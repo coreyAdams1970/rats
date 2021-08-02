@@ -57,7 +57,6 @@ export default function IndexPage(props) {
   const dates = props.data.dates;
   const news = props.data.news;
   const siteTitle = "Rage Against The Supremes";
-  const videoIds = ["Bs8BvYErtu0", "sEy4_hRjuqc", "wEufbMJwMLY", "FQFgkm-KZsE", "YI3OZfkksOo", "LKu6LQCbcEc", "MBZuiAcXGfo", "DNwFsFCJoUg", "4cfL0d273QA", "BuAEOjdMNG0"];
   const opts = {
     width: '800',
     playerVars: {
