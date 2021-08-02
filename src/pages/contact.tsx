@@ -18,10 +18,6 @@ export default function Contact(props) {
         }
     }, []);
 
-    useEffect(() => {
-        console.log(data);
-    }, [data])
-
     const encode = (data) => {
         return Object.keys(data)
             .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
