@@ -14,14 +14,14 @@ export default function Contact(props) {
 
     useEffect(() => {
         if (typeof "window" !== "undefined") {
-          ReactGA.pageview(window.location.pathname + window.location.search);
+            ReactGA.pageview(window.location.pathname + window.location.search);
         }
-      }, []);
+    }, []);
 
-      useEffect(()=>{
+    useEffect(() => {
         console.log(data);
-      },[data])
-      
+    }, [data])
+
     const encode = (data) => {
         return Object.keys(data)
             .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -29,21 +29,25 @@ export default function Contact(props) {
     }
 
     const handleSubmit = e => {
-        fetch("/", {
-            method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: encode({ "form-name": "ratsContactForm", ...data })
-        })
-            .then(() => alert("Success!"))
-            .catch(error => alert(error));
 
+        try {
+            fetch("/", {
+                method: "POST",
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: encode({ "form-name": "ratsContactForm", ...data })
+            })
+                .then(() => alert("Success!"))
+                .catch(error => alert(error));
+        } catch (e) {
+            console.log(e);
+        }
         e.preventDefault();
     };
 
     const handleChange = e => {
-
         setData({ ...data, [e.target.name]: e.target.value });
     }
+
     const { name, email, message } = data;
     return (
         <Layout location={props.location} title={siteTitle}>
@@ -51,11 +55,11 @@ export default function Contact(props) {
                 title="Contact"
                 keywords={[`rage against the supremes`, `park city music`, `utah wedding bands`, `salt lake city bands`]}
             />
-            <Honeypot/>
+            <Honeypot />
             <PageHeader title="Contact Us" />
             <div className="row">
                 <div className="col-12 col-lg-8">
-                <form name={process.env.FORM_NAME} onSubmit={handleSubmit} data-netlify="true" method="POST">
+                    <form name={process.env.FORM_NAME} onSubmit={handleSubmit} data-netlify="true" method="POST">
                         <input type="hidden" name="form-name" value={process.env.FORM_NAME} />
                         <Form.Group controlId="email">
                             <Form.Label>Email address</Form.Label>
