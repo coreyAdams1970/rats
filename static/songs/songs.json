@@ -311,6 +311,22 @@
     {
       "title": "John Mayer",
       "artist": "Last Train Home"
+    },
+    {
+      "title": "Hava Nagila",
+      "artist": "Traditional"
+    },
+    {
+      "title": "Chicken Fried",
+      "artist": "Zac Brown Band"
+    },
+    {
+      "title": "Bulls On Parade",
+      "artist": "Rage Against The Machine"
+    },
+    {
+      "title": "Feathered Indians",
+      "artist": "Tyler Childers"
     }
   ]
 }
