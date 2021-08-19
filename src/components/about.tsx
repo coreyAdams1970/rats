@@ -10,9 +10,7 @@ interface IAboutProps {
 }
 
 const AboutContainer = styled.div`
-    p {
-        font-size: 12px;
-    }
+    
 `;
 
 
