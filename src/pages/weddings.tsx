@@ -67,7 +67,7 @@ export default function Contact(props) {
                     </p>
                     <form name={process.env.WEDDING_FORM_NAME} onSubmit={handleSubmit} data-netlify="true" method="POST">
                         <input type="hidden" name="form-name" value={process.env.WEDDING_FORM_NAME} />
-                        <Form.Group controlId="email">
+                        <Form.Group controlId="date">
                             <Form.Label>Date of Wedding</Form.Label>
                             <Form.Control type="date" placeholder="Enter date" name="date" value={date} onChange={handleChange} />
 
