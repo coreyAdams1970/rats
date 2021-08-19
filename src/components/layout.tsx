@@ -23,17 +23,20 @@ function Header({ location, title = "Rage Against the Supremes" }) {
         </Link>
       </div>
       <nav className="col-lg-11 col-8 mb-4 mt-0 text-right mt-5 pr-5">
-        <a href="/" className="nav-button" disabled={location.pathname === rootPath}>
+        <a href="/" className={classNames("nav-button", location.pathname === "/"? "disabled-link": "")}>
           Home
         </a>
-        <Link to="/contact/" className="nav-button" disabled={location.pathname === "/contact/"}>
+        <Link to="/contact/" className={classNames("nav-button", location.pathname === "/contact/"? "disabled-link": "")}>
           Contact
         </Link>
-        <Link to="/songs/" className="nav-button" disabled={location.pathname === "/songs/"}>
-          Song List
+      <Link to="/weddings/" className={classNames("nav-button", location.pathname === "/weddings/"? "disabled-link": "")}>
+        Wedding
         </Link>
-        
-      </nav>
+      <Link to="/songs/" className={classNames("nav-button", location.pathname === "/songs/"? "disabled-link": "")}>
+        Song List
+        </Link>
+
+    </nav>
     </>
   );
 }
@@ -73,6 +76,11 @@ const LayoutContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10rem; 
+
+  .disabled-link {
+    pointer-events: none;
+    color: #efdad8 !important;
+  }
 `;
 
 const HeaderContainer = styled.div`
