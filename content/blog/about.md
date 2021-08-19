@@ -5,7 +5,7 @@ title: about
 description: all about RATS
 image: assets/rats_live.jpg
 ---
-<h1>Welcome!</h1>
+<h3>Welcome!</h3>
 
 We have been playing in and around Utah, Colorado, Wyoming, Nevada and Idaho for over ten years.  Our music comes from almost every popular genre and can be best described as "Ski Town Party Music", but that doesn't mean we don't make your wedding, corporate event, or party a complete success!  
 
