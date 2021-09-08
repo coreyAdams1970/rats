@@ -5,14 +5,6 @@ title: dates
 description: dates
 image: ""
 ---
-
-
-August 26 - [Utah Olympic Park - Flips n Sips](https://www.facebook.com/UtahOlympicPark/photos/a.10151714001051860/10158089319866860) benefit show 7-9
-
-August 27 -  Brews n Tunes Series: [YotelPad](https://www.yotel.com/en/hotels/yotelpad-park-city)  Park City (Corey Acoustic) 7-10
-
-<br/>
-
 Sep 24 -   Brews n Tunes Series: [YotelPad](https://www.yotel.com/en/hotels/yotelpad-park-city)  Park City (Corey Acoustic) 7-10
 
 <br/>
