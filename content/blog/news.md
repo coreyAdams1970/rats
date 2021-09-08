@@ -4,6 +4,8 @@ date: 2021-05-16T20:09:15.072Z
 title: news
 description: news
 ---
-What a great weekend
+RATS will be back Oct 17 and Oct 30th at the Spur on Main.   Here's a couple pics from the UOP Flips and Sips benefit. Be sure to check out the full video below!
 
-Friday night [Jamal Corrie from The Voice sat in with Corey](https://www.youtube.com/watch?v=dq5ptIgWhCQ) upstairs at the Spur and Saturday night we had one of our best gigs. The crowds are back and people are having a good time!
+![](assets/uop1.jpeg)
+
+![](assets/uop1.jpeg "UOP1")
