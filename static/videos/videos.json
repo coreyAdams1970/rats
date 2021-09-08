@@ -1,6 +1,10 @@
 {
   "videos": [
     {
+      "id": "XyWgrhV9LnA",
+      "title": "RATS Live at the Utah Olympic Park"
+    },
+    {
       "id": "Q1gjD--SFwA",
       "title": "Solitude, UT - Wedding"
     },
@@ -31,10 +35,6 @@
     {
       "id": "DNwFsFCJoUg",
       "title": "Badfish"
-    },
-    {
-      "id": "XyWgrhV9LnA",
-      "title": "RATS Live at the Utah Olympic Park"
     }
   ]
 }
