@@ -1,6 +1,10 @@
 {
   "videos": [
     {
+      "id": "R1Q_B83M6_E",
+      "title": "RATS UOP Promo"
+    },
+    {
       "id": "XyWgrhV9LnA",
       "title": "RATS Live at the Utah Olympic Park"
     },
@@ -35,10 +39,6 @@
     {
       "id": "DNwFsFCJoUg",
       "title": "Badfish"
-    },
-    {
-      "id": "R1Q_B83M6_E",
-      "title": "RATS UOP Promo"
     }
   ]
 }
