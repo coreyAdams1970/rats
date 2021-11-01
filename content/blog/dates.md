@@ -5,18 +5,16 @@ title: dates
 description: dates
 image: ""
 ---
-August 13 - Upstairs at The Spur (Corey Acoustic) 7-10
 
-August 14 - [The Spur ](http://www.thespurbarandgrill.com/)10-1
 
-August 26 - [Utah Olympic Park - Flips n Sips](https://www.facebook.com/UtahOlympicPark/photos/a.10151714001051860/10158089319866860) benefit show
+Oct 30 - [The Spur ](http://www.thespurbarandgrill.com/)Spooky Halloween Party!  9-12
 
-August 27 -  Brews n Tunes Series: [YotelPad](https://www.yotel.com/en/hotels/yotelpad-park-city)  Park City (Corey Acoustic) 7-10
 
-<br/>
 
-Sep 24 -   Brews n Tunes Series: [YotelPad](https://www.yotel.com/en/hotels/yotelpad-park-city)  Park City (Corey Acoustic) 7-10
+Dec 4 - Santa Pub Crawl! - The Spur.
 
-<br/>
+Dec 8 - Private show
 
-Oct 9 - Wedding
+Dec 9 - New York City BABY!
+
+Dec 31- New Years Eve Bash at The Spur !
