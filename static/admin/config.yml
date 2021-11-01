@@ -2,6 +2,10 @@ backend:
   repo: csmaller/rats
   name: git-gateway
   branch: main
+media_library:
+  name: uploadcare
+  config:
+    publicKey: 60843127cafe4343ff93
 media_folder: static/assets
 public_folder: assets
 display_url: https://www.ratsband.com
