@@ -1,7 +1,6 @@
 backend:
-  name: github
   repo: csmaller/rats
-  branch: main
+  name: git-gateway
 media_folder: static/assets
 public_folder: assets
 display_url: https://www.ratsband.com
@@ -16,37 +15,37 @@ collections:
       - { name: date, label: Date, widget: date }
       - { name: title, label: Title }
       - { name: description, label: Description }
-      - { label: "Featured Image", name: image, widget: image, required: false }
+      - { label: 'Featured Image', name: image, widget: image, required: false }
       - { name: body, label: Body, widget: markdown }
 
-  - name: "songs"
-    label: "Songs"
-    extension: "json"
+  - name: 'songs'
+    label: 'Songs'
+    extension: 'json'
 
     files:
-    - file: "static/songs/songs.json"
-      label: "Song List"
-      name: "songList"
-      fields:
-      - name: songs
-        label: songs
-        widget: list
+      - file: 'static/songs/songs.json'
+        label: 'Song List'
+        name: 'songList'
         fields:
-          - {name: title}
-          - {name: artist}
+          - name: songs
+            label: songs
+            widget: list
+            fields:
+              - { name: title }
+              - { name: artist }
 
-  - name: "videos"
-    label: "Videos"
-    extension: "json"
+  - name: 'videos'
+    label: 'Videos'
+    extension: 'json'
 
     files:
-    - file: "static/videos/videos.json"
-      label: "Video List"
-      name: "videoList"
-      fields:
-      - name: videos
-        label: videos
-        widget: list
+      - file: 'static/videos/videos.json'
+        label: 'Video List'
+        name: 'videoList'
         fields:
-          - {name: id}
-          - {name: title}
+          - name: videos
+            label: videos
+            widget: list
+            fields:
+              - { name: id }
+              - { name: title }

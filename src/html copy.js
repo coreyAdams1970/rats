@@ -5,21 +5,13 @@ export default function HTML(props) {
   return (
     <html {...props.htmlAttributes}>
       <head>
-
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4G7LKPFTXH"></script>
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-        <link
-          type="application/opensearchdescription+xml"
-          rel="search"
-          href="opensearch.xml"
-        />
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>
