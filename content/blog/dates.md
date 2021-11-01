@@ -7,14 +7,12 @@ image: ""
 ---
 
 
-Oct 30 - [The Spur ](http://www.thespurbarandgrill.com/)Spooky Halloween Party!  9-12
-
-
-
 Dec 4 - Santa Pub Crawl! - The Spur.
 
-Dec 8 - Private show
+Dec 8 - Salt Lake City Private show
 
-Dec 9 - New York City BABY!
+Dec 9 - New York City private show
+
+Dec 24th - Christmas Eve Get Down at the Cabin
 
 Dec 31- New Years Eve Bash at The Spur !
