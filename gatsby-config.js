@@ -1,5 +1,5 @@
 require("dotenv").config({
-  path: `.env.${process.env.NODE_ENV}`,
+  path: `.env.${ process.env.NODE_ENV }`,
 });
 
 module.exports = {
@@ -18,11 +18,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-netlify-cms`,
       options: {
-        modulePath: `${__dirname}/src/cms/cms.js`,
+        modulePath: `${ __dirname }/src/cms/cms.js`,
       },
     },
     `gatsby-plugin-sass`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-netlify-identity-widget`,
     `gatsby-transformer-remark`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -30,62 +31,19 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-feed-mdx`,
-    // {
-    //   resolve: "gatsby-plugin-local-search",
-    //   options: {
-    //     name: "blog",
-    //     engine: "flexsearch",
-    //     engineOptions: {
-    //       encode: "icase",
-    //       tokenize: "forward",
-    //       async: false,
-    //     },
-    //     query: `
-    //       {
-    //         allMdx {
-    //           nodes {
-    //             id
-    //             fields { slug }
-    //             excerpt
-    //             rawBody
-    //             frontmatter {
-    //               title
-    //               description
-    //               date(formatString: "MMMM DD, YYYY")
-    //             }
-    //           }
-    //         }
-    //       }
-    //     `,
-    //     ref: "id",
-    //     index: ["title", "rawBody"],
-    //     store: ["id", "slug", "date", "title", "excerpt", "description"],
-    //     normalizer: ({ data }) =>
-    //       data.allMdx.nodes.map(node => ({
-    //         id: node.id,
-    //         slug: node.fields.slug,
-    //         rawBody: node.rawBody,
-    //         excerpt: node.excerpt,
-    //         title: node.frontmatter.title,
-    //         description: node.frontmatter.description,
-    //         date: node.frontmatter.date,
-    //       })),
-    //   },
-    // },
-    `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-root-import`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `markdown-pages`,
-        path: `${__dirname}/content/blog`,
+        path: `${ __dirname }/content/blog`,
       },
     },
     `gatsby-transformer-remark`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/assets`,
+        path: `${ __dirname }/content/assets`,
         name: `assets`,
       },
     },
@@ -146,4 +104,4 @@ module.exports = {
       },
     },
   ],
-}
+};

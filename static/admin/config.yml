@@ -1,6 +1,7 @@
 backend:
   repo: csmaller/rats
   name: git-gateway
+  branch: main
 media_folder: static/assets
 public_folder: assets
 display_url: https://www.ratsband.com
