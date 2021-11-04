@@ -10,6 +10,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
+    "@types/react-helmet": "^6.1.4",
     "@u-wave/react-vimeo": "^0.9.5",
     "babel-plugin-styled-components": "^1.10.0",
     "bootstrap": "^4.6.0",
