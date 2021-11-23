@@ -5,13 +5,13 @@ title: dates
 description: dates
 image: ""
 ---
-
-
 Dec 4 - Santa Pub Crawl! - The Spur.
 
 Dec 8 - Salt Lake City Private show
 
 Dec 9 - New York City private show
+
+Dec 17 - Corey Acoustic - The Gateway in SLC
 
 Dec 24th - Christmas Eve Get Down at the Cabin
 
