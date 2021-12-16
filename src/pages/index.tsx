@@ -11,7 +11,7 @@ import About from "../components/about";
 import Dates from "../components/dates";
 import videoList from "../../static/videos/videos";
 
-ReactGA.initialize(process.env.GOOGLE_ID, { debug: false});
+ReactGA.initialize(process.env.GOOGLE_ID, { debug: false });
 
 const MainContainer = styled.div`
   .main-text {
@@ -68,12 +68,12 @@ export default function IndexPage(props) {
     event.target.pauseVideo();
   }
 
-  const handleVideoPlay = (id, title) =>{
-    
+  const handleVideoPlay = (id, title) => {
+
     ReactGA.event({
       category: 'Video',
       action: "Video Played",
-      label: `${id} : ${title}`
+      label: `${ id } : ${ title }`
     })
   }
 
@@ -103,17 +103,18 @@ export default function IndexPage(props) {
           </div>
           <div className="col-12 col-lg-9">
             <About about={about} textClassName="col-12 col-lg-5" imageClassName="col-12 col-lg-7" />
+            {videoList.videos.map((video, index) => {
+              return (
+                <div className="row mt-5 px-2" key={index}>
+                  <div className="col-12 py-3 text-center justify-content-center">
+                    <YouTube onPlay={() => handleVideoPlay(video.id, video.title)} videoId={video.id} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
+                  </div>
+                </div>
+              )
+            })}
           </div>
         </div>
-        {videoList.videos.map((video, index) => {
-          return (
-            <div className="row mt-5 px-2" key={index}>
-              <div className="col-12 py-3 text-center justify-content-center">
-                <YouTube onPlay={() => handleVideoPlay(video.id, video.title)} videoId={video.id} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
-              </div>
-            </div>
-          )
-        })}
+
       </MainContainer>
     </Layout>
   )
