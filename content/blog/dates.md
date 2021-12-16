@@ -7,11 +7,7 @@ image: ""
 ---
 
 
-Dec 4 - Santa Pub Crawl! - The Spur.
-
-Dec 8 - Salt Lake City Private show
-
-Dec 9 - New York City private show
+Dec 17 - Corey Acoustic -[Flanker Kitchen and Sporting Club ](https://www.flankerslc.com/?gclid=Cj0KCQiAnuGNBhCPARIsACbnLzqwsUBheu7Ax7KrUAuHWnmNPWMXb35B5oaFRer3PehIXwOLhaEhNJAaAv6IEALw_wcB)in SLC
 
 Dec 24th - Christmas Eve Get Down at the Cabin
 
