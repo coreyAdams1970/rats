@@ -5,10 +5,10 @@ title: dates
 description: dates
 image: ""
 ---
+Jan 8th - The Spur. 9:30 - 12:30
 
+Jan 12th - Spur - Corey Acoustic 7-10
 
-Dec 17 - Corey Acoustic -[Flanker Kitchen and Sporting Club ](https://www.flankerslc.com/?gclid=Cj0KCQiAnuGNBhCPARIsACbnLzqwsUBheu7Ax7KrUAuHWnmNPWMXb35B5oaFRer3PehIXwOLhaEhNJAaAv6IEALw_wcB)in SLC
+Jan 20th - Flankers in SLC - Corey Acoustic 7-10
 
-Dec 24th - Christmas Eve Get Down at the Cabin
-
-Dec 31- New Years Eve Bash at The Spur !
+Jan 22- The Spur - SUNDANCE!  9:30 -12:30
