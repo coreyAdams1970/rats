@@ -9,6 +9,8 @@ Jan 8th - The Spur. 9:30 - 12:30
 
 Jan 12th - Spur - Corey Acoustic 7-10
 
+Jan 14th - Sterling Steakhouse Park City - Corey Acoustic 7-10
+
 Jan 20th - Flankers in SLC - Corey Acoustic 7-10
 
 Jan 22- The Spur - SUNDANCE!  9:30 -12:30
