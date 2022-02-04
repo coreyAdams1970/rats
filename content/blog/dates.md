@@ -5,12 +5,10 @@ title: dates
 description: dates
 image: ""
 ---
-Jan 8th - The Spur. 9:30 - 12:30
+Feb 4/ 11/18/25 : Every Friday! Corey plays 3-6pm Apres! Acoushtik Loopapalooza at The Corner Store in Park City Mountain Resort.  
 
-Jan 12th - Spur - Corey Acoustic 7-10
 
-Jan 14th - Sterling Steakhouse Park City - Corey Acoustic 7-10
 
-Jan 20th - Flankers in SLC - Corey Acoustic 7-10
+Feb 5th/19th - Corey Acoustic 6-9 at the new Sterling Steak House in Park City. 
 
-Jan 22- The Spur - SUNDANCE!  9:30 -12:30
+March 31- Corey Acoustic at Flankers SLC 6-9
