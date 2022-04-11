@@ -4,24 +4,16 @@ date: 2021-05-16T20:09:15.072Z
 title: news
 description: news
 ---
-UPDATE:
+We are back baby!   Check out the private gig we just did and of course our main sound guys at [Event Right LLC](https://eventrightllc.com/). Happiest of 60th to Robyn! what a blast!
 
-**Our guitarist Skyler had a completely blown out dislocated shoulder. We decided to cancel our busy gig schedule for January and February. Corey is going to Golden BC Canada in March so we probably won't be back until the end of season in Park City.**  
-
-But Don't worry!  We are already working on new tunes for your ear hole. Hope to see you soon. Go over to our [contact](www.ratsband.com/contact) page and drop us a line.  Love to hear from you!
+Our first public gig is May 28th at the Spur in PC!
 
 
 
+<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Feventrightllc%2Fvideos%2F1375429956212645%2F&show_text=false&width=600&t=0" width="600" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 
 
-WOW!! New Years Eve show was amazing!  what a great time. Check out the video [here](https://www.youtube.com/watch?v=xO_yASrRbKI). 
 
-\-------------
 
-Santa Pub Crawl, a private show in PC and then whisked off to New York City. It's been a whirlwind for us!  See you Christmas Eve at [The Cabin](https://www.thecabinparkcity.com/)
 
-![](https://ucarecdn.com/62a5bf5f-c362-470b-af92-12358b9a5802/)
-
-![](assets/uop1.jpeg)
-
-![](assets/uop1.jpeg "UOP1")
+![Robyns 60th birthday!](https://ucarecdn.com/ac3a04c4-b38a-4bc4-af64-9d780ca848aa/ "private show")
