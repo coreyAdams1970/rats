@@ -1,7 +1,5 @@
-import React from "react"
-import { graphql } from "gatsby"
-import Img from "gatsby-image";
-import { MDXRenderer } from "gatsby-plugin-mdx"
+import React from "react";
+import { graphql } from "gatsby";
 
 const BlogPost = ({ data }) => {
   return (
@@ -13,8 +11,8 @@ const BlogPost = ({ data }) => {
         <div> {data.markdownRemark.frontmatter.description}</div>
       </div>
     </div>
-  )
-}
+  );
+};
 export default BlogPost;
 
 export const BlogPostTemplateQuery = graphql`

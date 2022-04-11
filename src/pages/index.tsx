@@ -1,14 +1,16 @@
-import React, { useEffect } from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import styled from "styled-components";
-import ReactGA from 'react-ga';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import YouTube from 'react-youtube';
-import { graphql } from "gatsby";
+
+import React, { useEffect } from "react";
+
 import About from "../components/about";
 import Dates from "../components/dates";
+import Layout from "../components/layout";
+import ReactGA from 'react-ga';
+import SEO from "../components/seo";
+import YouTube from 'react-youtube';
+import { graphql } from "gatsby";
+import styled from "styled-components";
 import videoList from "../../static/videos/videos";
 
 ReactGA.initialize(process.env.GOOGLE_ID, { debug: false });
@@ -58,7 +60,8 @@ export default function IndexPage(props) {
   const news = props.data.news;
   const siteTitle = "Rage Against The Supremes";
   const opts = {
-    width: '800',
+    width: '900',
+    height: '500',
     playerVars: {
       autoplay: 0,
     },
@@ -102,16 +105,21 @@ export default function IndexPage(props) {
             <Dates dates={dates} title="Upcoming Shows" className="dates" />
           </div>
           <div className="col-12 col-lg-9">
-            <About about={about} textClassName="col-12 col-lg-5" imageClassName="col-12 col-lg-7" />
-            {videoList.videos.map((video, index) => {
-              return (
-                <div className="row mt-5 px-2" key={index}>
-                  <div className="col-12 py-3 text-center justify-content-center">
-                    <YouTube onPlay={() => handleVideoPlay(video.id, video.title)} videoId={video.id} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
+            <About about={about} textClassName="col-12" imageClassName="col-12" />
+
+          </div>
+          <div className="row w-100">
+            <div className="col-12 justify-content-center">
+              {videoList.videos.map((video, index) => {
+                return (
+                  <div className="mt-2 px-5" key={index}>
+                    <div className="w-100 py-3 text-center justify-content-center">
+                      <YouTube onPlay={() => handleVideoPlay(video.id, video.title)} videoId={video.id} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
+                    </div>
                   </div>
-                </div>
-              )
-            })}
+                )
+              })}
+            </div>
           </div>
         </div>
 
