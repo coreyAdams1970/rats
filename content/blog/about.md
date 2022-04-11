@@ -3,7 +3,7 @@ path: about
 date: 2021-04-25T14:34:30.083Z
 title: about
 description: all about RATS
-image: ""
+image: https://ucarecdn.com/0f9ad258-aea6-45af-8555-03be6a5269a3/
 ---
 <h3>Welcome!</h3>
 
