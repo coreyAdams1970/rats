@@ -15,4 +15,6 @@ With tons of songs,  medleys, contagious energy, a touch of humor, and positive 
 
 ![](https://ucarecdn.com/cd603098-eb71-4eb7-931b-7dcd0f411665/)
 
+![](https://ucarecdn.com/134994d8-175f-4188-8587-4b8f306b2de9/)
+
 ![](https://ucarecdn.com/dda1072f-835e-42ff-9279-b6b5e566e9ce/)
