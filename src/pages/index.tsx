@@ -35,6 +35,10 @@ const MainContainer = styled.div`
 
   @media(max-width:700px){
     .you-tube-wrapper {
+
+      padding-left:0;
+      padding-right:0;
+      
       iframe{
         width:100%;
       }
@@ -42,6 +46,11 @@ const MainContainer = styled.div`
   }
 
   @media(max-width:500px){
+    .you-tube-wrapper{
+      padding-left:0;
+      padding-right:0;
+      width:100%;
+   }
     .main-text{
       padding: 10px;
     }
@@ -112,7 +121,7 @@ export default function IndexPage(props) {
             <div className="col-12 justify-content-center">
               {videoList.videos.map((video, index) => {
                 return (
-                  <div className="mt-2 px-5" key={index}>
+                  <div className="mt-2 px-0 px-md-5" key={index}>
                     <div className="w-100 py-3 text-center justify-content-center">
                       <YouTube onPlay={() => handleVideoPlay(video.id, video.title)} videoId={video.id} opts={opts} onReady={onReady} containerClassName="you-tube-wrapper" />
                     </div>
