@@ -3,7 +3,7 @@ path: about
 date: 2021-04-25T14:34:30.083Z
 title: about
 description: all about RATS
-image: https://ucarecdn.com/0f9ad258-aea6-45af-8555-03be6a5269a3/
+image: ""
 ---
 <h3>Welcome!</h3>
 
@@ -13,12 +13,12 @@ With tons of songs,  medleys, contagious energy, a touch of humor, and positive 
 
 ![](https://ucarecdn.com/a0628c31-96c0-4999-bd6a-17b11c88b4bb/)
 
-![](https://ucarecdn.com/fc4c069b-c496-4647-89f5-7181ddb4ec3f/)
+![]()
 
-![](https://ucarecdn.com/ffc209ba-8402-48f0-a8c0-2f1f9132fabf/ "skyler")
+![]( "skyler")
 
-![](https://ucarecdn.com/cd603098-eb71-4eb7-931b-7dcd0f411665/)
+![]()
 
-![](https://ucarecdn.com/134994d8-175f-4188-8587-4b8f306b2de9/)
+![]()
 
-![](https://ucarecdn.com/dda1072f-835e-42ff-9279-b6b5e566e9ce/)
+![]()
