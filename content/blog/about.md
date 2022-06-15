@@ -11,7 +11,7 @@ We have been playing in and around Utah, Colorado, Wyoming, Nevada and Idaho sin
 
 With tons of songs,  medleys, contagious energy, a touch of humor, and positive vibes RATS has built a name for themselves in their home town of Park City as one of the best bands in the area.  Come down to one of our shows and see what all of the fuss is about.
 
-![](https://ucarecdn.com/a0628c31-96c0-4999-bd6a-17b11c88b4bb/)
+![private show](https://ucarecdn.com/24327bd5-74e7-49b4-bb8f-0f1385bcbf58/ "rats private show")
 
 ![]()
 
