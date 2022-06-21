@@ -5,8 +5,22 @@ title: dates
 description: dates
 image: ""
 ---
-July 4th - 12:00 NOON at Park City Park after the July 4th Parade!
 
-Jul 9th - Newpark Amphitheater - Newpark PC .4-6pm - special acoustic show after 7-10 inside at Sterling
 
-Jul 15th - The Spur - PC .9-12pm
+June 24- Corey Acoustic - Yotelpad - Park City 7-10
+
+June 25 - Corey Acoustic - Sterling Steak House - Park City 7-10
+
+July 4th - RATS - 12:00 NOON at Park City Park after the July 4th Parade!
+
+July 5th - Corey Acoustic - The Spur (Upstairs)  Park City - 7-10pm
+
+Jul 9th - RATS-  Newpark Amphitheater - Newpark PC  4-6pm 
+
+July 9th - Corey Acoustic - Sterling Steak House - Park City 7-10pm
+
+Jul 15th - RATS - The Spur - PC .9-12pm
+
+Jul 29th - Corey Acoustic - Sterling Steak House PC - 7-10pm
+
+Aug 5 - RATS- The Cabin - PC - 9:30-1am
