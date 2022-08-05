@@ -12,3 +12,7 @@ Aug 26th - RATS- The Cabin - PC - 9:30-1am
 Sept 9th - Corey Acoustic - Sterling Steak House 7-10pm
 
 Sep 24- RATS - the Spur 9-12
+
+Oct 6 - Corey Acoustic - The Spur 8-11
+
+Oct 13 Corey Acoustic - The Spur 8-11
