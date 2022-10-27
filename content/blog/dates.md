@@ -17,8 +17,16 @@ Oct 6 - Corey Acoustic - The Spur 8-11
 
 Oct 8 - RATS - The Spur
 
-
-
 <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FDenver&src=Y29yZXlzbWFsbGVyQGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=N2o0NGRxcXVtc2RoZGJidmYxb3JhaXUwcW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&src=ZzBhOGh1aGRoZ2d2aGxyYzVyaDdwc2U4a2NAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23F6BF26&color=%237CB342&color=%23A79B8E&color=%238E24AA" style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 Oct 13 Corey Acoustic - The Spur 8-11
+
+
+
+Oct 28 RATS Halloween party at The Spur! 9-12
+
+Dec. 3 RATS Santa Pub Crawl at The Cabin 9-12
+
+Dec. 31 Canyon Village 5:30 - 7:30
+
+Dec. 31 RATS NYE at The Spur 9:30 - 12:30
