@@ -5,17 +5,10 @@ title: news
 description: news
 image: ""
 ---
-**D﻿ATES:**\
-Nov 26  Lake Effect - Salt Lake City 
 
-D﻿ec 3 - Santa Pub Crawl - The Cabin, Park City
+B﻿een a long strange trip lately. New years eve was crazy, and the best ski season we have ever had on record.  Lots of new songs coming up!
 
-D﻿ec 31 - Apres New Years Eve at The Canyons Village at Park City Mountain 5-7pm
-
-D﻿ec 31 - The Spur New Years Eve Celebration 10-1pm (get there early and get your tickets ahead of time
-
-J﻿an 13 - The Spur Park City
-
+Next gig coming up Friday Feb 17th at the Spur. Hope to see you there. 
 
 
 
