@@ -6,6 +6,10 @@ description: news
 image: ""
 ---
 
+W﻿e've been taking a bit of time off between ski season and summer.  Hope to see you at our next gig! Gonna be heading to Cali to play Hermosa Beach In June and we can't wait!
+
+-﻿---
+
 B﻿een a long strange trip lately. New years eve was crazy, and the best ski season we have ever had on record.  Lots of new songs coming up!
 
 Next gig coming up Friday Feb 17th at the Spur. Hope to see you there. 
