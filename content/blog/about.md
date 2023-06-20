@@ -7,7 +7,7 @@ image: ""
 ---
 <h3>Welcome!</h3>
 
-We have been playing in and around Utah, Colorado, Wyoming, Nevada and Idaho since 2008.  Our music comes from almost every popular genre and can be best described as "Ski Town Party Music", but that doesn't mean we don't make your wedding, corporate event, or party a complete success!  
+We have been playing in and around Utah, California,Colorado, Wyoming, Nevada and Idaho since 2008.  Our music comes from almost every popular genre and can be best described as "Ski Town Party Music", but that doesn't mean we don't make your wedding, corporate event, or party a complete success!  
 
 With tons of songs,  medleys, contagious energy, a touch of humor, and positive vibes RATS has built a name for themselves in their home town of Park City as one of the best bands in the area.  Come down to one of our shows and see what all of the fuss is about.
 
