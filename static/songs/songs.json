@@ -17,10 +17,6 @@
       "artist": "Foo Fighters"
     },
     {
-      "title": "Don't Stop Believin",
-      "artist": "Journey"
-    },
-    {
       "title": "Sweet Caroline",
       "artist": "Neil Diamond"
     },
@@ -69,10 +65,6 @@
       "artist": "Red Hot Chili Peppers"
     },
     {
-      "title": "Suck My Kiss",
-      "artist": "Red Hot Chili Pepeprs"
-    },
-    {
       "title": "Give It Away",
       "artist": "Red Hot Chili Peppers"
     },
@@ -97,18 +89,6 @@
       "artist": "House Of Pain"
     },
     {
-      "title": "Amber",
-      "artist": "311"
-    },
-    {
-      "title": "Down With Disease",
-      "artist": "Phish"
-    },
-    {
-      "title": "All Mixed Up",
-      "artist": "311"
-    },
-    {
       "title": "Sex Machine",
       "artist": "James Brown"
     },
@@ -127,10 +107,6 @@
     {
       "title": "Three Little Birds",
       "artist": "Bob Marley"
-    },
-    {
-      "title": "Thrift Shop",
-      "artist": "Mackelmore"
     },
     {
       "title": "American Girl",
@@ -217,16 +193,8 @@
       "artist": "Talking Heads"
     },
     {
-      "title": "Shakedown Street",
-      "artist": "Grateful Dead"
-    },
-    {
       "title": "Killing in the Name Of",
       "artist": "RATM"
-    },
-    {
-      "title": "Down By The River",
-      "artist": "Neil Young"
     },
     {
       "title": "Cortez The Killer",
@@ -249,10 +217,6 @@
       "artist": "Bryan Adams"
     },
     {
-      "title": "Bad Moon Rising",
-      "artist": "CCR"
-    },
-    {
       "title": "Jessies Girl",
       "artist": "Rick Springfield"
     },
@@ -265,10 +229,6 @@
       "artist": "Kenny Loggins"
     },
     {
-      "title": "Taylor",
-      "artist": "Jack Johnson"
-    },
-    {
       "title": "Bubbletoes",
       "artist": "Jack Johnson"
     },
@@ -279,10 +239,6 @@
     {
       "title": "Friends In Low Places",
       "artist": "Garth Brooks"
-    },
-    {
-      "title": "I Got A Woman",
-      "artist": "Ray Charles"
     },
     {
       "title": "Come And Get Your Love",
@@ -309,16 +265,8 @@
       "artist": "Green Day"
     },
     {
-      "title": "John Mayer",
-      "artist": "Last Train Home"
-    },
-    {
       "title": "Hava Nagila",
       "artist": "Traditional"
-    },
-    {
-      "title": "Chicken Fried",
-      "artist": "Zac Brown Band"
     },
     {
       "title": "Bulls On Parade",
@@ -326,6 +274,14 @@
     },
     {
       "title": "Feathered Indians",
+      "artist": "Tyler Childers"
+    },
+    {
+      "title": "Oklahoma Smokeshow",
+      "artist": "Zach Bryan"
+    },
+    {
+      "title": "Whitehouse Road",
       "artist": "Tyler Childers"
     }
   ]
