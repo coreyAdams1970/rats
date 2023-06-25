@@ -1,11 +1,12 @@
-import React from "react"
-import { Link } from "gatsby"
-import styled from "styled-components";
 import "./style.scss";
-import Logo from "../../content/assets/logo_transparent.png";
-import classNames from "classnames";
+
 import { Helmet } from 'react-helmet'
+import { Link } from "gatsby"
+import Logo from "../../content/assets/logo_transparent.png";
+import React from "react"
+import classNames from "classnames";
 import favicon from "../../static/favicon2.ico";
+import styled from "styled-components";
 
 const rootPath = `${__PATH_PREFIX__}/`
 const blogPath = `${__PATH_PREFIX__}/blog/`
@@ -22,7 +23,7 @@ function Header({ location, title = "Rage Against the Supremes" }) {
           <img src={Logo} className="float-left" alt="logo" />
         </Link>
       </div>
-      <nav className="col-lg-11 col-8 mb-4 mt-0 text-right mt-5 pr-5">
+      <nav className="col-lg-10 col-8 mb-4 mt-0 text-right mt-5 px-5">
         <a href="/" className={classNames("nav-button", location.pathname === "/"? "disabled-link": "")}>
           Home
         </a>

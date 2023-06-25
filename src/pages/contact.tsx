@@ -1,13 +1,15 @@
-import React, { useEffect, useState } from "react";
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import PageHeader from "../components/pageHeader";
-import ReactGA from 'react-ga';
-import { Form, Button } from "react-bootstrap";
-import RatsLive from "../../content/assets/rats_live.jpeg";
-import Honeypot from "../components/honeypot";
-import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
+import { Button, Form } from "react-bootstrap";
+import React, { useEffect, useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+
+import Honeypot from "../components/honeypot";
+import Layout from "../components/layout";
+import PageHeader from "../components/pageHeader";
+import RatsLive from "../../content/assets/rats_live.jpeg";
+import ReactGA from 'react-ga';
+import Seo from "../components/seo";
 
 ReactGA.initialize(process.env.GOOGLE_ID);
 
@@ -53,7 +55,7 @@ export default function Contact(props) {
     const { name, email, message } = data;
     return (
         <Layout location={props.location} title={siteTitle}>
-            <SEO
+            <Seo
                 title="Contact"
                 keywords={[`rage against the supremes`, `park city music`, `utah wedding bands`, `salt lake city bands`]}
             />

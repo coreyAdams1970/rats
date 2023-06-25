@@ -109,13 +109,8 @@ export default function IndexPage(props) {
 
       <MainContainer>
         <div className="row pt-5">
-          <div className="col-12 col-lg-3">
-            <Dates dates={dates} title="Upcoming Shows" className="dates" />
-            {news && <Dates dates={news} title="News" className="news" />}
-          </div>
-          <div className="col-12 col-lg-9">
+          <div className="col-12 p-5 p-sm-3">
             <About about={about} textClassName="col-12" imageClassName="col-12" />
-
           </div>
           <div className="row w-100">
             <div className="col-12 justify-content-center">
