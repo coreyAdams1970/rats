@@ -25,8 +25,6 @@ module.exports = {
         `gatsby-plugin-styled-components`,
         `gatsby-plugin-netlify-identity-widget`,
 
-        `gatsby-transformer-sharp`,
-        `gatsby-plugin-sharp`,
         `gatsby-plugin-offline`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-typescript`,
@@ -39,14 +37,6 @@ module.exports = {
                 path: `${__dirname}/content/blog`,
             },
         },
-        // `gatsby-transformer-remark`,
-        // {
-        //   resolve: `gatsby-source-filesystem`,
-        //   options: {
-        //     path: `${ __dirname }/content/assets`,
-        //     name: `assets`,
-        //   },
-        // },
         {
             resolve: `gatsby-plugin-mdx`,
             options: {
@@ -103,5 +93,6 @@ module.exports = {
                 pathToConfigModule: `src/utils/typography`,
             },
         },
+        `gatsby-transformer-remark`,
     ],
 };
