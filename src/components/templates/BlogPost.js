@@ -1,5 +1,3 @@
-import Img from "gatsby-image";
-import { MDXRenderer } from "gatsby-plugin-mdx";
 import React from "react";
 import { graphql } from "gatsby";
 
@@ -16,15 +14,20 @@ const BlogPost = ({ data }) => {
 export default BlogPost;
 
 export const BlogPostTemplateQuery = graphql`
-    query BlogPostTemplateQuery($slug: String) {
-        markdownRemark(fields: { slug: { eq: $slug } }) {
-            fields {
-                slug
-            }
-            frontmatter {
-                description
-                title
-                image
+    query BlogPostTemplateQuery {
+        allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+            edges {
+                node {
+                    excerpt
+                    fields {
+                        slug
+                    }
+                    frontmatter {
+                        date(formatString: "MMMM DD, YYYY")
+                        title
+                        description
+                    }
+                }
             }
         }
     }

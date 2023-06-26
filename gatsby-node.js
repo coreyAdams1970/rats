@@ -43,11 +43,19 @@ exports.createPages = async ({ graphql, actions }) => {
 async function getPageData(graphql) {
     return await graphql(`
         {
-            blogPosts: allMarkdownRemark {
+            blogPosts: allMdx(
+                sort: { fields: [frontmatter___date], order: DESC }
+            ) {
                 edges {
                     node {
+                        excerpt
                         fields {
                             slug
+                        }
+                        frontmatter {
+                            date(formatString: "MMMM DD, YYYY")
+                            title
+                            description
                         }
                     }
                 }

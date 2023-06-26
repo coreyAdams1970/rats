@@ -1,10 +1,6 @@
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-
 import React, { useEffect } from "react";
 
 import About from "../components/about";
-import Dates from "../components/dates";
 import Layout from "../components/layout";
 import ReactGA from 'react-ga';
 import SEO from "../components/seo";
