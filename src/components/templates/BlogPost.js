@@ -2,14 +2,17 @@ import React from "react";
 import { graphql } from "gatsby";
 
 const BlogPost = ({ data }) => {
-    return (
-        <div>
+    if (data && data.markdownRemark) {
+        return (
             <div>
-                <h2>{data.markdownRemark.frontmatter.title}</h2>
-                <div> {data.markdownRemark.frontmatter.description}</div>
+                <div>
+                    <h2>{data.markdownRemark.frontmatter.title}</h2>
+                    <div> {data.markdownRemark.frontmatter.description}</div>
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
+    return "";
 };
 export default BlogPost;
 
