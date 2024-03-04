@@ -9,11 +9,7 @@ export default function HTML(props) {
                     async
                     src="https://www.googletagmanager.com/gtag/js?id=G-C67R4TN00K"
                 ></script>
-                <script>
-                    window.dataLayer = window.dataLayer || []; function gtag()
-                    {dataLayer.push(arguments)}
-                    gtag('js', new Date()); gtag('config', 'G-C67R4TN00K');
-                </script>
+
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
                 <meta charSet="utf-8" />
